@@ -1,0 +1,16 @@
+# 💾 忽略環境變數
+.env
+
+# 📦 忽略 Node.js 依賴（前端 + 後端）
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# 🔧 忽略編譯輸出與日誌
+dist/
+build/
+*.log
+
+# 🚀 忽略 OS 產生的垃圾文件
+.DS_Store
+Thumbs.db
